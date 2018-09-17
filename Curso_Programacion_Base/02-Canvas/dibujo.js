@@ -4,8 +4,6 @@ var ancho = d.width;
 var texto = document.getElementById("txt_Lineas");
 var boton = document.getElementById("btn_Enviar");
 boton.addEventListener("click", dibujoPorClick);
-
-
 /*
 while (l < lineas) {
     yi = 10 * l;

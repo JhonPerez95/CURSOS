@@ -38,3 +38,4 @@ Recuerda:
 Cuando queremos enviar información a un servidor podemos usar un formularios
 
 En JavaScript puedes agregar un manejador de eventos con element.addEventListener('event', function)
+-------
