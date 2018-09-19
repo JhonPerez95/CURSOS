@@ -6,6 +6,7 @@ var teclas = {
 }
  
 var area = document.getElementById("area_dibujo"); 
+var lista = document.getElementById("id_Color");
 var lienzo = area.getContext("2d");
 var x = 150;
 var y = 150; 
@@ -13,10 +14,10 @@ var estado = 0;
 var colorcito = "red";
 
 // Escuchador de eventos Teclado - Mouse
-document.addEventListener("keyup", dibujarTeclado);          // espera a que pase el evento para que se ejecute dicha funcion
-document.addEventListener("mousedown", presionarMouse);      // Cuando oprimes el mouse
-document.addEventListener("mouseup", soltarMouse);           // Cuando sueltas el mouse
-document.addEventListener("mousemove", dibujarMouse);        // cuando mueves el mouse
+document.addEventListener("keyup", dibujarTeclado, CambiarColor);          // espera a que pase el evento para que se ejecute dicha funcion
+document.addEventListener("mousedown", presionarMouse, CambiarColor);      // Cuando oprimes el mouse
+document.addEventListener("mouseup", soltarMouse, CambiarColor);           // Cuando sueltas el mouse
+document.addEventListener("mousemove", dibujarMouse, CambiarColor);        // cuando mueves el mouse
 
 function dibujarLinea(color, xInicial, yInicial, xFinal, yFinal ) {
     lienzo.beginPath();                     // Inicia el trazo
@@ -28,6 +29,10 @@ function dibujarLinea(color, xInicial, yInicial, xFinal, yFinal ) {
     lienzo.closePath();                     // Cierra el dibujo
 }
 
+function CambiarColor (){       // Cambia de color , se llama funcion para cada evento se actualice el color escogido
+ colorcito = lista.value;
+}
+
 function presionarMouse(evento) {
     estado = 1;;
 }
@@ -36,7 +41,7 @@ function soltarMouse(evento) {
 }
 function dibujarMouse(evento) {             
    if (estado == 1) {
-
+        colorcito = lista.value;
        dibujarLinea(colorcito, x, y , evento.clientX, evento.clientY); 
    }
                                 // Guarda la posicion despues de dibujar linea
