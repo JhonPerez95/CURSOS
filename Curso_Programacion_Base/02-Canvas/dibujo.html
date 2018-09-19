@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Canvas</title>
+    <title>Dibujando</title>
 </head>
 <body>
-    <h1>Dibujo en canvas</h1>
-    <p>
-        cuantas lineas quieres
-        <input type="text" id="txt_Lineas">
-        <input type="button" value="Enviar" id="btn_Enviar">
-    </p>
-    <canvas width="300" height="300" id="idDibujo"></canvas>
-    <p>Asi queda tu dibujo</p>
-    <script src="./dibujo.js"></script>
+    <canvas width="300" height="300" id="area_dibujo"></canvas>
+    <p>Escoja el color</p>
+	<form action="/action_page.php">
+  		<select name="cars" id="id_Color">
+  			 <option value="red">Rojo</option>
+  			 <option value="blue">Azul</option>
+   		     <option value="yellow">Amarrillo</option>
+   			 <option value="green">Verde</option>
+  		</select>
+  		<br><br>
+	</form>
+    <script src=./eventos.js></script>
 </body>
 </html>
