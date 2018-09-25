@@ -39,3 +39,22 @@ Cuando queremos enviar información a un servidor podemos usar un formularios
 
 En JavaScript puedes agregar un manejador de eventos con element.addEventListener('event', function)
 -------
+Funciones matemáticas y números aleatorios en JavaScript
+Vamos a empezar a crear las bases de lo que podría ser un videojuego
+
+Para esto debemos resolver algunos problemas:
+
+¿Cómo dibujar el mapa del juego?
+
+¿Cómo dibujar los personajes?
+
+¿Cómo definir las posiciones aleatorias de los personajes?
+
+Recuerda: 
+Math -> clase estatica de JavaScript
+
+Math.floor() devuelve el número entero por debajo de los decimales.
+
+Math.ceil() devuelve el siguiente número entero arriba de los decimales
+
+Math.random() devuelve un número aleatorio de 0 a 0.999..
