@@ -12,7 +12,7 @@ var vaca = {
 }
 var pollo = {
     url: "./img/pollo.png",
-    cargaOK: false25
+    cargaOK: false
 }
 var cerdo = {
     url: "./img/cerdo.png",
