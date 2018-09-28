@@ -58,3 +58,29 @@ Math.floor() devuelve el número entero por debajo de los decimales.
 Math.ceil() devuelve el siguiente número entero arriba de los decimales
 
 Math.random() devuelve un número aleatorio de 0 a 0.999..
+
+
+***************************************************************************************************************
+
+¡Ahora pagamos por estudiar!. Te invitamos a que corras la voz a todos tus amigos, porque estamos buscando a los próximos técnicos en Gestión Comercial y Telemercadeo en Contact Center, un programa otorgado por el SENA.
+
+
+Este programa busca patrocinar, durante la etapa de formación el 50% del SMLV + EPS a cada estudiante; después podrán seguir su proceso poniendo en práctica lo aprendido, donde contarán con todas las garantías expuestas por la ley con un reconocimiento del 100% del SMLV + EPS y ARL en su etapa práctica.
+
+ 
+
+Solo deben cumplir con los siguientes requisitos:
+
+ 
+
+Ser bachiller.
+No haber tenido contrato de aprendizaje.
+No tener estudios formales culminados.
+No haber laborado en Konecta.
+Disponibilidad de tiempo completo.
+ 
+
+Si tus amigos cumplen con el perfil, pueden enviar la hoja de vida a sagudeloa@grupokonecta.com con el asunto "Estudio", entre los meses de octubre y noviembre.
+
+
+Regresa el programa que entiende la importancia del aprendizaje y la práctica.
