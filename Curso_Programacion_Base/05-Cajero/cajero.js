@@ -48,6 +48,3 @@ var b = document.getElementById("btnExtraer");
 Billete.imagen = new Image(); // Se crea un objeto (fondo) de la clase Image
 Billete.imagen.src = Billete.url;
 b.addEventListener("click", entregarDinero);
-
-
-
