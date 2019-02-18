@@ -106,3 +106,28 @@ db.Clientes.find(
         ]
     }
 );
+
+//Insertamos mas datos
+db.Clientes.insert(
+    [
+        {firstName:"Diego", lastName:"Real", age: 22, sex:"Masculino"},
+        {firstName:"Diego", lastName:"Diaz", age: 30, sex:"Masculino"},
+        {firstName:"Fernando", lastName:"Martinez", age: 80, sex:"Masculino"},
+    ]
+);
+
+//Buscar datos condicional mayor que , gt
+db.Clientes.find(
+    {age:
+        {$gt: 25}
+    }
+);
+
+//Buscar datos condicional mayor que , lt
+db.Clientes.find(
+    {age:
+        {$lt: 25}
+    }
+);
+
+//
