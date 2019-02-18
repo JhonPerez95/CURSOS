@@ -15,7 +15,7 @@ class Interfaz{
                 <div class="card-body">
                     <strong class="card-text"> Producto: </strong> ${product.name} - 
                     <strong class="card-text"> Precio: </strong> ${product.price} -
-                    <strong class="card-text"> Año: </strong> ${product.year} * 
+                    <strong class="card-text"> Año: </strong> ${product.year} -
                     <button type="button" class="btn btn-outline-danger" name="btnEliminar">Eliminar</button>
                 </div>
             </div>
