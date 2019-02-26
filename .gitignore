@@ -7,3 +7,5 @@ erl_crash.dump
 *.ez
 *.beam
 /config/*.secret.exs
+/node_modules
+/Curso-Express/node_modules
