@@ -25,8 +25,6 @@ app.use(function (req, res, next) {
     console.log('Request URL: '+req.url);
     next();
 });
-
-
 //ROUNTING - RUTAS 
 
 app.use(routes);
