@@ -5,11 +5,11 @@
         <h1 class="text-center">{{title}}</h1>
     </div>
     <div class="col-sm-4">
-      <div class="alert alert-success alert-dismissable">
-        <a href="#" class="close" >
+      <div class="alert alert-success alert-dismissable" *ngIf="message">
+        <a href="#" class="close" (click)="closeAlert()" >
           &times;
         </a>
-        mensaje aqui
+        {{message}}
       </div>
     </div>
   </div>
@@ -80,7 +80,7 @@
         </tbody>
       </table>
     </div> 
-    <div class="col-sm-5">  <!--Actualizar datos-->
+    <div class="col-sm-5" [hidden]="updateFrom">  <!--Actualizar datos-->
         <h2>Actualizar Datos:</h2>
         <form class="form-horizontal" >
           <div class="form-group row">
